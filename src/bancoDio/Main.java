@@ -3,8 +3,13 @@ package bancoDio;
 public class Main {
 
 	public static void main(String[] args) {
-		Conta cc = new ContaCorrente();
-		Conta poupanca = new ContaPoupanca();
+		
+		Cliente Fabio = new Cliente();
+		Fabio.setNome("Fabio");
+		
+		
+		Conta cc = new ContaCorrente(Fabio);
+		Conta poupanca = new ContaPoupanca(Fabio);
 		
 		cc.depositar(100);
 		cc.transferir(100, poupanca);
