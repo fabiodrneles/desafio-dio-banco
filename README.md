@@ -1,3 +1,3 @@
-# desafio-dio-banco
+# Desafio-dio-banco
 
 ## Criando um Banco Digital com Java e Orientação a Objetos.
